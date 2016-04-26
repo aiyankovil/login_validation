@@ -1,0 +1,8 @@
+Login validation using php and mysql
+                      Everybody should see the login pages in most of websites. You should have doubt about this login form, how they validate username and password. There is nothing, just only 2 steps as follows as for login validation using php.
+                      1. You enter username and password already registered which is stored in mysql database.
+                      2. After you submit a button to login, it check the database values whether the username and password is correct or not using php and mysql query. The mysql query for select a values from mysql database as like this:
+              
+             ie, SELECT * FROM table_name WHERE name='username' and password='password' 
+
+If it return values correctly, then you can login. Otherwise it give error message.
